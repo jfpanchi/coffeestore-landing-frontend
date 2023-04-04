@@ -775,3 +775,69 @@ form button:hover {
     font-size: 0.8rem;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .navbar {
+    height: 25%;
+    padding: 20px 12px;
+    align-items: start;
+    font-size: 1rem;
+  }
+
+  .menu-nav {
+    display: absolute;
+    align-self: flex-end;
+    flex-direction: column;
+  }
+
+  .main-pri {
+    height: 75%;
+    flex-direction: column;
+    padding: 0 12px;
+  }
+
+  .main-pri-texts {
+    align-items: center;
+  }
+
+  .main-pri-texts h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .about-content {
+    padding: 0 12px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-content-photo {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .about-content-our {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+  }
+
+  .menu-content {
+    padding: 0 12px;
+  }
+
+  .review-content {
+    padding: 0 12px;
+    height: 60%;
+  }
+
+  .form { 
+    width: 80%;
+  }
+
+  .footer-container {
+    width: 95%;
+    
+  }
+}
